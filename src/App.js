@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from './components/sidebar/sidebar';
 
 class App extends Component {
   render() {
@@ -9,6 +9,7 @@ class App extends Component {
         <header className="App-header">
           
         </header>
+        <Sidebar/>
         <p className="App-intro">
         </p>
       </div>
